@@ -14,7 +14,6 @@ module.exports = function() {
   function substitute(decl) {
     // grab rgba(...) value
     var color = decl.value.split('shade(')[1];
-
     // color
     var colorObj = color.slice(0, color.lastIndexOf(','));
     colorObj = parse(colorObj);
@@ -37,10 +36,10 @@ module.exports = function() {
       }
     }
     // store the alpha value if it exists
-    var alpha = (typeof(colorObj.a) === 'undefined') ? '': ', '+colorObj.a;
-
+    var alpha = (colorObj.a === 1) ? '': ', '+colorObj.a;
+    var type = (alpha !== '') ? 'rgba': 'rgb';
     // format
-    var fullColor = 'rgb(' + colorObj.r + ', ' + colorObj.g + ', ' + colorObj.b + alpha + ')';
+    var fullColor = type + '(' + colorObj.r + ', ' + colorObj.g + ', ' + colorObj.b + alpha + ')';
 
     // replace
     return fullColor;
