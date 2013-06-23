@@ -30,19 +30,19 @@ yields:
 ```css
 body {
   padding: 10px;
-  background: rgb(13, 13, 13, 0.5);
+  background: rgba(13, 13, 13, 0.5);
 }
 
 .stuff {
-  color: rgb(3, 203, 53, 1);
+  color: rgb(3, 203, 53);
 }
 
 .bright {
-  background: rgb(77, 141, 205, 1);
+  background: rgb(77, 141, 205);
 }
 
 .dark {
-  background: rgb(128, 128, 128, 1);
+  background: rgb(128, 128, 128);
 }
 ```
 
@@ -110,7 +110,7 @@ body {
 }
 
 body {
-  color: rgb(179, 179, 179, 1);
-  background: rgb(26, 26, 26, 0.5);
+  color: rgb(179, 179, 179);
+  background: rgba(26, 26, 26, 0.5);
 }
 ```
