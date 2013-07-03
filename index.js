@@ -29,7 +29,6 @@ module.exports = function() {
     return value;
 
     function processShadeStatement(statement) {
-      console.log("Processing shade statement: " + statement);
       // grab rgba(...) value
       var color = statement.split('shade(')[1];
       // color
