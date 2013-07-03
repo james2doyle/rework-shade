@@ -1,9 +1,15 @@
 rework-shades
 ================
 
-lighten and darken function for the [Rework]() CSS preprocessing library.
+lighten and darken function for the [Rework](https://github.com/visionmedia/rework) CSS preprocessing library.
 
 ### Usage
+
+Install the package via NPM.
+
+```shell
+npm install rework-shade
+```
 
 ```css
 body {
