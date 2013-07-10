@@ -1,6 +1,6 @@
 {
   "name": "rework-shade",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "James Doyle",
   "description": "shade lighten and darken plugin for the Rework CSS preprocessing library",
   "keywords": [
