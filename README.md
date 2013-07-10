@@ -1,7 +1,9 @@
-rework-shades
+rework-shade
 ================
 
-lighten and darken function for the [Rework](https://github.com/visionmedia/rework) CSS preprocessing library.
+Lighten and darken function for the [Rework](https://github.com/visionmedia/rework) CSS preprocessing library.
+
+This plugin is meant to share both the syntax and results of the stylus version. You can use `shade({color}, +/-{amount})` or the stylus syntax of `lighten|darken({color}, {amount}%)`.
 
 ### Usage
 
