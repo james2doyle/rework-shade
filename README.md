@@ -54,15 +54,8 @@ body {
 
 ### Amount explained
 
-The amount you put, is the percentage of white(255) that you want to decrease by. An easy way to think about it is, "I am going to lighten/darken this color by *X* precentage of 255(white)".
-
-Here is the math if I wanted to *decrease* a color by 10%:
-
-```javascript
-Math.round(2.55 * -10); // yields -25
-```
-
-Then you take that result and subtract it from the R, G, and B colors. I have compared this to Stylus and the results are the same:
+The amount you put, is the percentage of lightness that you want to increase or
+decrease the color by. We use HSL and adjust the lightness. The math used is identical to how Stylus handles it.
 
 
 ```css
