@@ -1,6 +1,14 @@
 rework-shade
 ================
 
+### Depreciated
+
+Check out these other color libraries instead.
+
+[rework-color-function](https://github.com/ianstormtaylor/rework-color-function "rework-color-function")
+[rework-plugin-colors](https://github.com/reworkcss/rework-plugin-colors/ "rework-plugin-colors")
+[rework-color](https://github.com/kristoferjoseph/rework-color "rework-color")
+
 Lighten and darken function for the [Rework](https://github.com/visionmedia/rework) CSS preprocessing library.
 
 This plugin is meant to share both the syntax and results of the stylus version. You can use `shade({color}, +/-{amount})` or the stylus syntax of `lighten|darken({color}, {amount}%)`.
