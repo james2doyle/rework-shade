@@ -5,9 +5,11 @@ rework-shade
 
 Check out these other color libraries instead.
 
-[rework-color-function](https://github.com/ianstormtaylor/rework-color-function "rework-color-function")
-[rework-plugin-colors](https://github.com/reworkcss/rework-plugin-colors/ "rework-plugin-colors")
-[rework-color](https://github.com/kristoferjoseph/rework-color "rework-color")
+* [rework-color-function](https://github.com/ianstormtaylor/rework-color-function "rework-color-function")
+* [rework-plugin-colors](https://github.com/reworkcss/rework-plugin-colors/ "rework-plugin-colors")
+* [rework-color](https://github.com/kristoferjoseph/rework-color "rework-color")
+
+If you wanted to fork this and update it, well please do!
 
 Lighten and darken function for the [Rework](https://github.com/visionmedia/rework) CSS preprocessing library.
 
